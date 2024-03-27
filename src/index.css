@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+  background-color: black;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+Link {
+  color: white;
+}
+
+.bg-video {
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+}
