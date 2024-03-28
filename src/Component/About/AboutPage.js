@@ -1,7 +1,7 @@
 import React from "react";
 import Vishal from "./Vishal.jpg";
 import TextEffect from "../Homepage/TextEffect";
-import Resume from "./Vishal Virani Resume.pdf"
+import Resume from "./Vishal-Virani-Resume.pdf"
 // import Demo from "../Demo";
 
 const AboutPage = () => {
