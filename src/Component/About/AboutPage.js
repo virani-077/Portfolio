@@ -1,7 +1,7 @@
 import React from "react";
 import Vishal from "./Vishal.jpg";
 import TextEffect from "../Homepage/TextEffect";
-import Resume from "./Vishal-Virani-Resume.pdf"
+import Resume from "./Vishal-Virani-Resume.pdf";
 // import Demo from "../Demo";
 
 const AboutPage = () => {
@@ -28,14 +28,21 @@ const AboutPage = () => {
           <hr className="" />
 
           <p className="text-sm lg:text-base text-center lg:text-left">
-            My name is <span className="text-orange-400">Vishal Virani</span>.
+            {/* My name is <span className="text-orange-400">Vishal Virani</span>.
             <br />
             I'm very passionate and dedicated to my work. With 20 years
             <br />
             experience as a professional graphic WebDevelopment, I have acquired
             the
             <br />
-            skills and knowledge.
+            skills and knowledge. */}
+            My name is <span className="text-orange-400">Vishal Virani</span>.
+            <br />
+            I'm very passionate and dedicated to my work. <br />
+            To work in a firm with a professional work driven <br />
+            environment where I can utilize and apply my knowledge, <br />
+            skills which would enable me as a fresh graduate to grow while
+            fulfilling organization goals
           </p>
 
           <div className="flex justify-center lg:justify-start">

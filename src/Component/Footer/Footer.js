@@ -35,18 +35,12 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="inline-block rounded-full p-3 transition-all duration-500 bg-gradient-to-r from-blue-400 hover:bg-blue-500 animate-rotate">
+          <div className="inline-block rounded-full p-3 transition-all duration-500 bg-gradient-to-r from-green-400 hover:bg-green-500 animate-rotate">
             <a
-              href="https://m.facebook.com/profile.php/?id=100010471511020&name=xhp_nt_"
+              href="https://api.whatsapp.com/send?phone=7623916751"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook className="text-2xl" />
-            </a>
-          </div>
-
-          <div className="inline-block rounded-full p-3 transition-all duration-500 bg-gradient-to-r from-green-400 hover:bg-green-500 animate-rotate">
-            <a href="https://api.whatsapp.com/send?phone=7623916751" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-2xl" />
             </a>
           </div>
@@ -58,6 +52,16 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FaLinkedinIn className="text-2xl" />
+            </a>
+          </div>
+
+          <div className="inline-block rounded-full p-3 transition-all duration-500 bg-gradient-to-r from-blue-400 hover:bg-blue-500 animate-rotate">
+            <a
+              href="https://m.facebook.com/profile.php/?id=100010471511020&name=xhp_nt_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="text-2xl" />
             </a>
           </div>
         </div>
