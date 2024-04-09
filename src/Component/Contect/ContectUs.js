@@ -30,12 +30,16 @@ const ContectUs = () => {
       alert("Message sent successfully!");
     } catch (error) {
       console.error("Error sending message:", error);
-      alert("Hello " + formData.name +" ! Failed to send message. Please try again later.");
+      alert(
+        "Hello " +
+          formData.name +
+          " ! Failed to send message. Please try again later."
+      );
     }
   };
 
   return (
-    <div className="text-white pt-20 flex justify-center h-screen">
+    <div className="text-white pt-20 flex justify-center m-5">
       <div className="lg:md:w-3/6 m-auto px-4 bg-neutral-400 rounded-lg">
         <section className="m-4">
           <h2 className="h1-responsive font-bold text-center text-black text-3xl mb-4">
@@ -54,7 +58,7 @@ const ContectUs = () => {
                   <div className="col-md-6">
                     <div className="input-box">
                       <input
-                      required
+                        required
                         type="text"
                         id="name"
                         name="name"
@@ -69,7 +73,7 @@ const ContectUs = () => {
                   <div className="col-md-6">
                     <div className="input-box">
                       <input
-                      required
+                        required
                         type="text"
                         id="email"
                         name="email"
@@ -85,7 +89,7 @@ const ContectUs = () => {
                   <div className="col-md-12">
                     <div className="input-box">
                       <input
-                      required
+                        required
                         type="text"
                         id="subject"
                         name="subject"
@@ -106,7 +110,7 @@ const ContectUs = () => {
                         id="message"
                         name="message"
                         rows="4"
-                        className="form-control md-textarea w-full text_area"
+                        className="form-control md-textarea w-full text_area rounded-lg"
                         value={formData.message}
                         onChange={handleChange}
                       ></textarea>
@@ -114,10 +118,10 @@ const ContectUs = () => {
                   </div>
                 </div>
 
-                <div className="text-center text-md-left pt-5">
-                <button className="px-5 py-2 text-base lg:text-xl bg-white text-black rounded-2xl cursor-pointer transition-all duration-300 hover:box-shadow-lg hover:text-orange-500 hover:shadow-md hover:shadow-yellow-400/40 font-semibold">
-                Send
-              </button>
+                <div className="text-center lg:text-right text-md-left pt-5">
+                  <button className="px-5 py-2 text-base lg:text-xl bg-white text-black rounded-2xl cursor-pointer transition-all duration-300 hover:box-shadow-lg hover:text-orange-500 hover:shadow-md hover:shadow-yellow-400/40 font-semibold">
+                    Send
+                  </button>
                 </div>
               </form>
             </div>

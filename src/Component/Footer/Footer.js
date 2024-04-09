@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0 gap-1">
           <p className="text-lg flex gap-2 items-center">
             <Mail />
-            <span>vishal07.360design@gmail.com</span>
+            <span>vishalvirani0770@gmail.com</span>
           </p>
           <p className="flex gap-2 hover:cursor-pointer" onClick={handleCall}>
             <Phone />
